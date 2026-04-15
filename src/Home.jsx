@@ -2,9 +2,11 @@ import { MdOutlineMail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router";
+import Resume  from "./assets/Resume.pdf"
 import "./Home.css";
 
 function Home() {
+
   return (
     <>
       <section className="left">
@@ -38,17 +40,21 @@ function Home() {
         </div>
       </section>
 
-      {/* <aside className="ml-50">
-        <h1 className="text-2xl font-semibold">Tech stack</h1>
+    <aside className="grid grid-cols-[auto_auto] sm:grid-cols-[auto_auto] md:grid-cols-[auto_auto] mt-4">
+      <div className="ml-50">
+        <h1 className="text-2xl mb-3 font-semibold"><u>Tech stack</u></h1>
         <p>⚫HTML5/CSS3</p>
         <p>⚫Javascript</p><p>⚫React.js</p><p>⚫Nest.js</p><p>⚫Typescript</p><p>⚫Node.js</p>
         <p>⚫MySQL</p><p>⚫PostgreSQL</p><p>⚫Prisma ORM</p><p>⚫Git/GitHub</p><p>⚫PostMan</p>
-        
-      </aside> */}
+        </div>
+        <div className="bg-gray-700 rounded-sm justify-self-end mr-10 h-10 w-35 self-end cursor-pointer">
+          <a href={Resume} ><p className="text-gray-400 m-2">Download my CV</p></a>
+        </div>
+      </aside>
 
       <Link to="/experience">
         <u>
-          <p className="ml-50 mt-10 font-semibold text-gray-600">Experiences</p>
+          <p className="ml-50 mt-10 mb-4 font-semibold text-gray-600">Experiences</p>
         </u>
       </Link>
     </>
