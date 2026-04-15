@@ -56,7 +56,7 @@ function Home() {
           <p>⚫Git/GitHub</p>
           <p>⚫PostMan</p>
         </div>
-        <div className="bg-gray-700 rounded-sm justify-self-end mr-10 h-10 w-35 self-end cursor-pointer">
+        <div className="bg-gray-700 rounded-sm justify-self-end mr-10 h-10 self-end cursor-pointer">
           <a href={Resume}>
             <p className="text-gray-400 m-2">Download my CV</p>
           </a>
