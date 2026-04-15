@@ -1,18 +1,17 @@
 import { Link } from "react-router";
 
 function Experience() {
-
   return (
     <>
       <section>
         <div>
           <Link to="/">
-            <h1 className="ml-50 mt-5 text-gray-500">←Back</h1>
+            <h1 className="ml-50 max-sm:ml-3 mt-5 text-gray-500">←Back</h1>
           </Link>
-          <p className="text-4xl ml-50 mt-7">Experience</p>
-          <div className="h-150 border-l-4 border-gray-500 ml-50 mt-5 mb-5">
+          <p className="text-4xl ml-50 max-sm:ml-3 mt-7">Experience</p>
+          <div className="h-auto border-l-4 border-gray-500 ml-50 max-sm:ml-3 mt-5 mb-5">
             <div>
-                {/* <span className="h-1 w-1 border-gray-500 border-l-20 rounded-full"></span> */}
+              {/* <span className="h-1 w-1 border-gray-500 border-l-20 rounded-full"></span> */}
               <h1 className="ml-5 mt-3 text-2xl font-semibold">
                 FrontEnd Intern
               </h1>
