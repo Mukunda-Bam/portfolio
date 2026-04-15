@@ -1,7 +1,6 @@
 .left {
   display: flex;
   margin-top: 50px;
-  margin-right: 150px;
   flex-direction: column;
   gap: 25px;
   place-content: left;
