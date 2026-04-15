@@ -13,7 +13,7 @@ function NavBar() {
   return (
     <>
       <div>
-        <p className="flex justify-end mt-10 mr-40 cursor-pointer" onClick={toggleTheme}>
+        <p className="flex justify-end mt-10 self-end mr-10 cursor-pointer max-sm:mr-2" onClick={toggleTheme}>
         <p><img className="w-6 h-auto" src={Contrast} alt="Contrast" /></p>
         </p>
       </div>
