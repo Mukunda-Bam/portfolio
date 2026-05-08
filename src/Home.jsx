@@ -55,6 +55,7 @@ function Home() {
           <p>⚫Prisma ORM</p>
           <p>⚫Git/GitHub</p>
           <p>⚫PostMan</p>
+          <p>⚫TailwindCSS</p>
         </div>
         <div className="bg-gray-700 rounded-sm justify-self-end mr-10 h-10 self-end cursor-pointer">
           <a href={Resume}>

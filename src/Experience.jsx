@@ -25,7 +25,7 @@ function Experience() {
                 signup and login system using react.js, express.js, and MySQL
                 <br />
                 <br />
-                • Worked with RESTful APIs and express.js <br />
+                • Worked with RESTful APIs<br />
                 <br />
                 • Worked with react routing and redux toolkit <br />
               </p>
@@ -37,12 +37,11 @@ function Experience() {
             <h3 className="ml-5 text-gray-500">January 2025 - February 2024</h3>
             <p className="ml-5 mt-7 font-semibold">Responsibilities</p>
             <p className="mt-2 ml-5 text-gray-500">
-              • Worked on a student information app developing User Interface
-              and setting up its APIs
+              • Worked on a student information app developing user interface
+              and setting up APIs
               <br />
               <br />
-              • Worked on authentication and authorization using nest.js,
-              typescript and
+              • Worked on authentication and authorization using nest.js
               <br />
             </p>
             <div></div>
